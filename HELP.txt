@@ -1,0 +1,12 @@
+
+# Stworz srodowisko wirtualne z pythonem3 
+virtualenv -p /usr/bin/python3 py3env
+
+# Uruchom srodowisko
+source py3env/bin/activate
+
+# Instaluj moduly pojedyczno
+#pip install package-name
+
+# Lub zrob to za pomoca pliku requirements.txt 
+pip install -r requirements.txt
